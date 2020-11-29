@@ -1,0 +1,81 @@
+*{ margin: 0;padding: 0;outline: 0;}
+
+
+.template{width: 600px;
+    margin: 0 auto;
+  overflow: hidden;}
+    .header{background-color:#D9A554; 
+      margin-bottom: 12px;
+      color: #f1f1f1;
+    text-align: left;
+    padding: 5px;
+  
+  }
+  .dept{
+    font-size: 18px;
+  }
+img{width: 60px;
+padding-left: 10px;
+padding-right: 5px;
+height: 80px;
+float: left;}
+ 
+.maincontent {
+    width: 580px;
+   background-color:#FEEEAD ;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.title{
+  color: #C37F3F;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.footer{
+  background-color:#D9A554; 
+
+text-align: center;
+color: #f1f1f1;
+font-size: 15px;
+padding: 5px;}
+.collapsible {
+  background-color: #DDAE5C; 
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    width: 400px;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    margin: 5px 90px;
+  
+  }
+  
+  .active, .collapsible:hover {
+    background:#BA753C ;
+   color: #f1f1f1;
+  }
+  
+  .content {
+    padding: 7px 15px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: 58%;
+    margin: 5px 110px;
+}
+.go{
+  font-size: 13px;
+    margin-top: 10px;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.go:hover{
+  background-color:#000 ;
+  color:#fff;
+}
