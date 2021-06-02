@@ -20,18 +20,21 @@ function grade1() {
     ingr[3] = document.getElementById("114").value;
     ingr[4] = document.getElementById("115").value;
     ingr[5] = document.getElementById("116").value;
-    
+    ingr[5] = document.getElementById("116").value;
+  
 
     //credits
     incr = [3,3,1.5,3,3,3]
+    // incr2 = [3,1.5,3,1.5,3,3,3]
     
-
+  
 
     // Calculate GPA
 
     var allgr = 0;
     var allcr = 0;
     var gpa = 0;
+    //1ST SEMESTER
     for (var x = 0; x < ingr.length; x++) {
         if (ingr[x] == "") {
             alert("Error- Grade cannot be empty.");
@@ -65,6 +68,9 @@ function grade1() {
     var gpa = allgr / allcr;
     document.getElementById("demo1").innerHTML = gpa.toFixed(2);
    
+
+
+    
 }
 
 
