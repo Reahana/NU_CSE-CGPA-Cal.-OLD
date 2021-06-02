@@ -141,7 +141,7 @@ function grade2() {
     }
     //result
     var gpa = allgr / allcr;
-    document.getElementById("demo1").innerHTML = gpa.toFixed(2);
+    document.getElementById("demo2").innerHTML = gpa.toFixed(2);
    
 
 
